@@ -1,0 +1,151 @@
+{
+  "adventure": {
+    "label": "Adventure Explorer",
+    "title": "Raw, wild & unforgettable",
+    "desc": "For those who seek adrenaline, open roads, and undiscovered coastlines.",
+    "img": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=700&q=80",
+    "days": 5,
+    "budget": "IDR 3M",
+    "dest": 8,
+    "level": "Hard",
+    "tags": ["Surfing", "Hiking", "Snorkeling", "Beach Camping"],
+    "days_data": [
+      {
+        "title": "Arrival & Nembrala",
+        "region": "West Rote",
+        "stops": [
+          { "name": "Kupang – Rote Ferry", "meta": ["2.5 hr crossing", "Depart 08:00"], "time": "08:00", "icon": "ship", "img": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=120&q=60" },
+          { "name": "Pantai Nembrala", "meta": ["Surf beach", "Sunset spot"], "time": "14:00", "icon": "waves", "img": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=120&q=60" },
+          { "name": "Warung Pantai Dinner", "meta": ["Local seafood", "Lontar palm wine"], "time": "19:00", "icon": "utensils", "img": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=120&q=60" }
+        ],
+        "photos": [
+          "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=140&q=60",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=140&q=60",
+          "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=140&q=60"
+        ]
+      },
+      {
+        "title": "Surf & Coastal Hike",
+        "region": "Bo'a Beach",
+        "stops": [
+          { "name": "Dawn surf – Pantai Bo'a", "meta": ["World-class lefts", "Beginner-friendly reef"], "time": "06:00", "icon": "waves", "img": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=120&q=60" },
+          { "name": "Batu Termanu Rock Arch", "meta": ["45 min drive", "Photography spot"], "time": "11:00", "icon": "camera", "img": "https://images.unsplash.com/photo-1518155317743-a8ff43ea6a5f?w=120&q=60" },
+          { "name": "Snorkeling – Pulau Do'o", "meta": ["Coral gardens", "Crystal visibility"], "time": "14:30", "icon": "anchor", "img": "https://images.unsplash.com/photo-1559025346-3cbdaf2b9168?w=120&q=60" }
+        ],
+        "photos": [
+          "https://images.unsplash.com/photo-1573790387438-4da905039392?w=140&q=60",
+          "https://images.unsplash.com/photo-1518155317743-a8ff43ea6a5f?w=140&q=60",
+          "https://images.unsplash.com/photo-1559025346-3cbdaf2b9168?w=140&q=60"
+        ]
+      }
+    ]
+  },
+  "luxury": {
+    "label": "Luxury Escape",
+    "title": "Serene, refined & timeless",
+    "desc": "Private villas, curated dining, and exclusive cultural encounters.",
+    "img": "https://images.unsplash.com/photo-1573790387438-4da905039392?w=700&q=80",
+    "days": 7,
+    "budget": "IDR 12M",
+    "dest": 6,
+    "level": "Easy",
+    "tags": ["Private Villa", "Fine Dining", "Spa", "Sunset Cruises"],
+    "days_data": [
+      {
+        "title": "Private Arrival & Villa Check-in",
+        "region": "Nembrala",
+        "stops": [
+          { "name": "Private Charter Flight", "meta": ["Kupang to Rote", "40 min scenic flight"], "time": "10:00", "icon": "plane", "img": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=120&q=60" },
+          { "name": "Ocean-view Villa Check-in", "meta": ["Private pool", "Butler service"], "time": "12:30", "icon": "home", "img": "https://images.unsplash.com/photo-1573790387438-4da905039392?w=120&q=60" },
+          { "name": "Champagne Sunset Deck", "meta": ["Curated welcome", "Lontar sunset"], "time": "18:00", "icon": "wine", "img": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=120&q=60" }
+        ],
+        "photos": [
+          "https://images.unsplash.com/photo-1573790387438-4da905039392?w=140&q=60",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=140&q=60",
+          "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=140&q=60"
+        ]
+      }
+    ]
+  },
+  "backpacker": {
+    "label": "Backpacker Mode",
+    "title": "Authentic, low-cost & free",
+    "desc": "Stretch your budget, meet locals, and explore Rote like a true traveller.",
+    "img": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=700&q=80",
+    "days": 7,
+    "budget": "IDR 300K",
+    "dest": 10,
+    "level": "Medium",
+    "tags": ["Motorbike", "Homestay", "Street Food", "Local Buses"],
+    "days_data": [
+      {
+        "title": "Ferry Arrival & Ba'a Explore",
+        "region": "Ba'a Town",
+        "stops": [
+          { "name": "Public Ferry – Kupang to Ba'a", "meta": ["IDR 60K", "Depart 08:00"], "time": "08:00", "icon": "ship", "img": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=120&q=60" },
+          { "name": "Ba'a Town Warung Lunch", "meta": ["IDR 20K", "Local rice dishes"], "time": "13:00", "icon": "utensils", "img": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=120&q=60" },
+          { "name": "Rent a Motorbike", "meta": ["IDR 80K/day", "Best way around island"], "time": "15:00", "icon": "map-pin", "img": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=120&q=60" }
+        ],
+        "photos": [
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=140&q=60",
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=140&q=60",
+          "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=140&q=60"
+        ]
+      }
+    ]
+  },
+  "photo": {
+    "label": "Photography Journey",
+    "title": "Light, landscape & life",
+    "desc": "Chase golden hour, blue hour, and the extraordinary light of Rote.",
+    "img": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=700&q=80",
+    "days": 6,
+    "budget": "IDR 4M",
+    "dest": 9,
+    "level": "Medium",
+    "tags": ["Golden Hour", "Drone Shots", "Portraits", "Landscapes"],
+    "days_data": [
+      {
+        "title": "Arrival & First Light Shoot",
+        "region": "Ba'a & Nembrala",
+        "stops": [
+          { "name": "Ferry crossing (blue hour)", "meta": ["Shoot from deck", "Sea & sky tones"], "time": "06:00", "icon": "camera", "img": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=120&q=60" },
+          { "name": "Nembrala Fishing Village", "meta": ["Local portraits", "Authentic life"], "time": "10:00", "icon": "users", "img": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=120&q=60" },
+          { "name": "Lontar Silhouette Sunset", "meta": ["Best light 17:30", "Iconic Rote shot"], "time": "17:00", "icon": "sun", "img": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=120&q=60" }
+        ],
+        "photos": [
+          "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=140&q=60",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=140&q=60",
+          "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=140&q=60"
+        ]
+      }
+    ]
+  },
+  "family": {
+    "label": "Family Vacation",
+    "title": "Easy, safe & unforgettable",
+    "desc": "Gentle beaches, cultural discoveries, and memories for the whole family.",
+    "img": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=700&q=80",
+    "days": 6,
+    "budget": "IDR 6M",
+    "dest": 7,
+    "level": "Easy",
+    "tags": ["Calm Beaches", "Kid-Friendly", "Cultural Visits", "Snorkeling"],
+    "days_data": [
+      {
+        "title": "Arrival & Beach Day",
+        "region": "Nembrala",
+        "stops": [
+          { "name": "Flight + Ferry Arrival", "meta": ["Family charter option", "Comfortable crossing"], "time": "09:00", "icon": "plane", "img": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=120&q=60" },
+          { "name": "Calm Lagoon Beach Play", "meta": ["Safe for children", "Shallow warm water"], "time": "13:00", "icon": "waves", "img": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=120&q=60" },
+          { "name": "Hotel Garden BBQ Dinner", "meta": ["Fresh grilled fish", "Kids menu available"], "time": "19:00", "icon": "utensils", "img": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=120&q=60" }
+        ],
+        "photos": [
+          "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=140&q=60",
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=140&q=60",
+          "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=140&q=60"
+        ]
+      }
+    ]
+  }
+}
