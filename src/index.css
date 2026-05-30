@@ -321,9 +321,9 @@ main {
 .hero-section {
   position: relative;
   min-height: 100vh;
-  padding: 0 60px 120px;
+  padding: 80px 60px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   overflow: hidden;
 }
 
@@ -522,7 +522,7 @@ main {
 .scroll-indicator {
   position: absolute;
   left: 50%;
-  bottom: 38px;
+  bottom: 28px;
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
@@ -540,7 +540,7 @@ main {
 
 .scroll-line {
   width: 1px;
-  height: 50px;
+  height: 40px;
   background: linear-gradient(to bottom, var(--sand), transparent);
   animation: scrollPulse 2s ease-in-out infinite;
 }
