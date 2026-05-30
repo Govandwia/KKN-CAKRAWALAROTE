@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import siteContent from '../../data/site-content.json';
 import { Icon } from '../shared/Icons';
@@ -362,6 +363,56 @@ export function ContactSection({ contact }: Pick<SiteContent, 'contact'>) {
             Send Message →
           </button>
         </form>
+      </div>
+    </section>
+  );
+}
+
+export function ArticleSection({ articles }: Pick<SiteContent, 'articles'>) {
+  if (!articles.cards || articles.cards.length === 0) return null;
+  
+  const featured = articles.cards[0];
+  const list = articles.cards.slice(1);
+
+  return (
+    <section id="articles" className="content-section content-section--light articles-section">
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '48px', flexWrap: 'wrap', gap: '20px' }}>
+        <SectionHeading eyebrow={articles.eyebrow} title={articles.title} accent="Articles" />
+        <div className="filter-pills">
+          <button type="button" className="pill active">All</button>
+          <button type="button" className="pill">Culture</button>
+          <button type="button" className="pill">Nature</button>
+          <button type="button" className="pill">Surfing</button>
+        </div>
+      </div>
+
+      <div className="news-native-layout">
+        <article className="news-native-featured reveal">
+          <div className="news-native-featured-content">
+            <span className="dest-card-tag" style={{ position: 'relative', color: 'var(--ocean)', borderColor: 'var(--ocean)', backgroundColor: 'transparent', marginBottom: '24px' }}>Trending</span>
+            <h3 className="section-title" style={{ fontSize: '2.8rem', marginBottom: '20px', marginTop: '10px' }}>{featured.title}</h3>
+            <p className="about-text" style={{ marginBottom: '32px', fontSize: '1.1rem' }}>{featured.excerpt}</p>
+            <Link to={`/article/${featured.id}`} className="btn-primary btn-primary--inline">
+              Read Story
+            </Link>
+          </div>
+          <div className="news-native-featured-img">
+            <img src={featured.image} alt={featured.title} style={{ borderRadius: '24px', width: '100%', height: '100%', objectFit: 'cover', boxShadow: 'var(--shadow)' }} />
+          </div>
+        </article>
+
+        <div className="news-native-list reveal reveal-delay-1">
+          {list.map((card) => (
+            <Link to={`/article/${card.id}`} key={card.id} className="news-native-list-item">
+              <img src={card.image} alt={card.title} />
+              <div className="news-native-list-info">
+                <h4 className="culture-item-title">{card.title}</h4>
+                <p className="culture-item-desc">{card.excerpt}</p>
+              </div>
+              <div className="t-card-arrow" style={{ color: 'var(--teal)', fontSize: '1.5rem', marginLeft: 'auto' }}>→</div>
+            </Link>
+          ))}
+        </div>
       </div>
     </section>
   );

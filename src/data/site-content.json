@@ -5,6 +5,7 @@
     { "label": "UMKM", "href": "#umkm" },
     { "label": "Events", "href": "#events" },
     { "label": "Gallery", "href": "#gallery" },
+    { "label": "Articles", "href": "#articles" },
     { "label": "Contact", "href": "#contact" }
   ],
   "hero": {
@@ -135,11 +136,50 @@
       { "key": "village", "label": "Villages" }
     ],
     "destinations": [
-      { "id": "boa", "name": "Pantai Bo'a", "category": "surf", "x": 26, "y": 54, "desc": "World-class left-hand surf break.", "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=700&q=80" },
-      { "id": "nembrala", "name": "Nembrala", "category": "village", "x": 40, "y": 61, "desc": "Surfer village with warm hospitality.", "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=700&q=80" },
-      { "id": "manulai", "name": "Bukit Manulai", "category": "nature", "x": 58, "y": 28, "desc": "Panoramic hilltop viewpoint.", "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=700&q=80" },
-      { "id": "sasando", "name": "Sasando Village", "category": "culture", "x": 72, "y": 44, "desc": "Traditional music and weaving.", "image": "https://images.unsplash.com/photo-1602941525421-8f8b81d3edbb?w=700&q=80" },
-      { "id": "doo", "name": "Pulau Do'o", "category": "beach", "x": 77, "y": 68, "desc": "Snorkeling waters and reef life.", "image": "https://images.unsplash.com/photo-1518155317743-a8ff43ea6a5f?w=700&q=80" }
+      { "id": "boa", "name": "Pantai Bo'a", "category": "surf", "lat": -10.9329, "lng": 122.8687, "desc": "World-class left-hand surf break.", "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=700&q=80" },
+      { "id": "nembrala", "name": "Nembrala", "category": "village", "lat": -10.8800, "lng": 122.8270, "desc": "Surfer village with warm hospitality.", "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=700&q=80" },
+      { "id": "manulai", "name": "Bukit Manulai", "category": "nature", "lat": -10.8524, "lng": 122.9555, "desc": "Panoramic hilltop viewpoint.", "image": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=700&q=80" },
+      { "id": "sasando", "name": "Sasando Village", "category": "culture", "lat": -10.7300, "lng": 123.1000, "desc": "Traditional music and weaving.", "image": "https://images.unsplash.com/photo-1602941525421-8f8b81d3edbb?w=700&q=80" },
+      { "id": "doo", "name": "Pulau Do'o", "category": "beach", "lat": -10.8123, "lng": 122.7538, "desc": "Snorkeling waters and reef life.", "image": "https://images.unsplash.com/photo-1518155317743-a8ff43ea6a5f?w=700&q=80" }
+    ]
+  },
+  "articles": {
+    "eyebrow": "News & Stories",
+    "title": "Latest Articles",
+    "cards": [
+      {
+        "id": "discovering-hidden-beaches",
+        "title": "Discovering the Hidden Beaches of Rote",
+        "title_id": "Menjelajahi Pantai Tersembunyi di Rote",
+        "date": "Aug 12, 2025",
+        "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80",
+        "excerpt": "A journey to the untouched coastal beauty of the island.",
+        "excerpt_id": "Sebuah perjalanan menuju keindahan pesisir pulau yang belum tersentuh.",
+        "content": "Rote Island is renowned for its surfing, but hidden along its rugged coastline are some of the most pristine and untouched beaches in Indonesia. Unlike the crowded shores of Bali, the beaches here offer a quiet escape, where the only sound is the rhythmic crashing of waves against limestone cliffs. In this article, we take you on a journey to discover Pantai Mulut Seribu, where a labyrinth of limestone islands creates hidden coves with crystal clear water. We also explore the serene stretches of sand near Bo'a, perfect for a sunset stroll. Pack your bags, rent a scooter, and get ready to find your own private slice of paradise.",
+        "content_id": "Pulau Rote terkenal dengan ombak selancarnya, namun tersembunyi di sepanjang garis pantainya yang terjal terdapat beberapa pantai paling murni dan tak tersentuh di Indonesia. Berbeda dengan pantai-pantai ramai di Bali, pantai di sini menawarkan pelarian yang tenang, di mana satu-satunya suara adalah deburan ombak yang berirama menghantam tebing kapur. Dalam artikel ini, kami mengajak Anda dalam perjalanan untuk menemukan Pantai Mulut Seribu, di mana labirin pulau-pulau kapur menciptakan teluk tersembunyi dengan air sebening kristal. Kami juga menjelajahi hamparan pasir yang tenang di dekat Bo'a, sempurna untuk berjalan-jalan saat matahari terbenam. Kemasi tas Anda, sewa skuter, dan bersiaplah untuk menemukan surga pribadi Anda."
+      },
+      {
+        "id": "art-of-sasando",
+        "title": "The Art of Sasando",
+        "title_id": "Seni Sasando",
+        "date": "Sep 05, 2025",
+        "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&q=80",
+        "excerpt": "Exploring the intricate craft behind Rote's iconic instrument.",
+        "excerpt_id": "Menjelajahi kerajinan rumit di balik instrumen ikonik Rote.",
+        "content": "The Sasando is more than just a musical instrument; it is the soul of Rote. Crafted from the leaves of the lontar palm and bamboo, this unique harp produces a mesmerizing, delicate sound that has echoed through the island for centuries. We sat down with local artisans who have dedicated their lives to preserving this craft. They explained the meticulous process of selecting the right palm leaves, drying them, and weaving them into the iconic semi-spherical resonator. Today, the Sasando is not only played in traditional ceremonies but has also found its way into modern music, continuing to enchant audiences worldwide.",
+        "content_id": "Sasando lebih dari sekadar alat musik; ia adalah jiwa Rote. Dibuat dari daun lontar dan bambu, harpa unik ini menghasilkan suara halus yang memesona dan telah bergema di pulau ini selama berabad-abad. Kami duduk bersama pengrajin lokal yang mendedikasikan hidup mereka untuk melestarikan kerajinan ini. Mereka menjelaskan proses teliti dalam memilih daun lontar yang tepat, mengeringkannya, dan menenunnya menjadi resonator setengah bola yang ikonik. Saat ini, Sasando tidak hanya dimainkan dalam upacara adat tetapi juga telah merambah ke musik modern, terus memikat penonton di seluruh dunia."
+      },
+      {
+        "id": "guide-to-nembrala",
+        "title": "A Guide to Nembrala Surfing",
+        "title_id": "Panduan Berselancar di Nembrala",
+        "date": "Oct 22, 2025",
+        "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
+        "excerpt": "Everything you need to know to catch the best waves.",
+        "excerpt_id": "Segala hal yang perlu Anda ketahui untuk menangkap ombak terbaik.",
+        "content": "Nembrala is often hailed as the crown jewel of surfing in Rote, famous for its long, peeling left-hand reef break. Whether you are an experienced surfer chasing the swell or a beginner looking to ride your first wave, Nembrala has something for everyone. The best time to visit is during the dry season, from May to October, when the trade winds blow offshore and the Indian Ocean delivers consistent swells. In this guide, we break down the different peaks, the best tide conditions, and where to grab a post-surf meal. Don't forget your reef booties and plenty of sunscreen!",
+        "content_id": "Nembrala sering disebut sebagai mahkota selancar di Rote, terkenal dengan ombak karang kiri yang panjang. Baik Anda peselancar berpengalaman yang mengejar ombak besar atau pemula yang ingin menunggangi ombak pertama Anda, Nembrala memiliki sesuatu untuk semua orang. Waktu terbaik untuk berkunjung adalah selama musim kemarau, dari Mei hingga Oktober, ketika angin pasat bertiup dari darat dan Samudra Hindia memberikan ombak yang konsisten. Dalam panduan ini, kami merinci berbagai puncak ombak, kondisi pasang surut terbaik, dan tempat makan setelah berselancar. Jangan lupa sepatu karang dan tabir surya Anda!"
+      }
     ]
   },
   "contact": {
@@ -165,7 +205,7 @@
     "brand": "ROTE NTT",
     "desc": "A digital gateway to the hidden paradise at the southern tip of Indonesia — where ancient culture meets breathtaking nature.",
     "columns": [
-      { "title": "Explore", "links": ["About Rote", "Tourism", "Culture", "Events", "Gallery"] },
+      { "title": "Explore", "links": ["About Rote", "Tourism", "Culture", "Events", "Gallery", "Articles"] },
       { "title": "Community", "links": ["UMKM", "Youth", "Contact", "Media Kit", "Press"] },
       { "title": "Practical Info", "links": ["How to Get Here", "Best Time to Visit", "Accommodation", "Travel Tips", "Local Guide"] }
     ],
